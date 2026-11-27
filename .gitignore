@@ -8,6 +8,7 @@ __pycache__/
 venv/
 env/
 ENV/
+.python-version
 
 # Збірка та пакування
 build/
@@ -16,11 +17,22 @@ dist/
 .eggs/
 wheels/
 *.egg
+pip-wheel-metadata/
+
+# Менеджери пакетів (залишіть lock-файли в репозиторії для застосунків,
+# а для бібліотек можна розкоментувати)
+.pdm-python
+.pdm-build/
+__pypackages__/
+# poetry.lock
+# uv.lock
+# Pipfile.lock
 
 # Тестування й покриття
 .pytest_cache/
 .tox/
 .nox/
+.hypothesis/
 .coverage
 .coverage.*
 htmlcov/
@@ -35,11 +47,45 @@ coverage.xml
 # Jupyter
 .ipynb_checkpoints/
 
+# Django
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+local_settings.py
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Документація
+docs/_build/
+site/
+
+# Дані та ML-моделі
+data/
+datasets/
+*.csv
+*.parquet
+*.pkl
+*.h5
+*.pt
+*.onnx
+mlruns/
+wandb/
+
+# Docker
+docker-compose.override.yml
+
 # Секрети та локальні конфіги
 .env
 .env.*
 !.env.example
 *.pem
+*.key
 secrets.json
 
 # Логи й бази даних
