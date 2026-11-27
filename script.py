@@ -29,3 +29,4 @@ def render(width=80, height=32):
 
 
 print(render())
+#author Khrystyna Prykhodko
