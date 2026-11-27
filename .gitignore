@@ -1,0 +1,58 @@
+# Байт-код і кеш
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Віртуальні середовища
+.venv/
+venv/
+env/
+ENV/
+
+# Збірка та пакування
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+*.egg
+
+# Тестування й покриття
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Типізація та лінтери
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Секрети та локальні конфіги
+.env
+.env.*
+!.env.example
+*.pem
+secrets.json
+
+# Логи й бази даних
+*.log
+*.sqlite3
+*.db
+
+# IDE та редактори
+.idea/
+.vscode/
+*.swp
+*~
+
+# Операційні системи
+.DS_Store
+Thumbs.db
