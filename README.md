@@ -1,1 +1,1 @@
-Hi, this is one of my initial projects while learning about Git and GitHub, I would be very happy if you use this repository for good purposes
+Hi, this is one of my initial projects while learning about Git and GitHub, I would be very happy if you use this repository for good purposes. Author tis project Khrystyna Prykhodko from KN-21
