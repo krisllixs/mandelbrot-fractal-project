@@ -64,8 +64,4 @@ print(render())
 ## Автор
 Приходько Христина КН-21
 ## Посилання на lокументування функцій
-[DOCUMENTION.md] (https://github.com/krisllixs/mandelbrot-fractal-project/blob/main/DOCUMENTION.md)
-
-
-
-
+[DOCUMENTION.md][https://github.com/krisllixs/mandelbrot-fractal-project/blob/main/DOCUMENTION.md]
