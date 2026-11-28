@@ -63,6 +63,9 @@ print(render())
 - [ ] Ще одне завдання
 ## Автор
 Приходько Христина КН-21
+## Посилання на lокументування функцій
+[DOCUMENTION.md] (https://github.com/krisllixs/mandelbrot-fractal-project/blob/main/DOCUMENTION.md)
+
 
 
 
